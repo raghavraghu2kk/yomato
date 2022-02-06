@@ -1,0 +1,175 @@
+body{
+    margin: auto;
+}
+/*Header Start*/
+header{
+    height:60px;
+    background-color: #fa5624;
+}
+
+#mytextt{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 37%;
+    font-size: 700%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#mytexttt{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 28%;
+    font-size: 300%;
+    color: white;
+    
+}
+
+select{
+    height: 100%;
+    width: 50%;
+    border-radius: 0.8rem;
+    padding: 0px 1rem;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.restlist{
+    width: 50%;
+}
+.dropdown{
+    height: 60px;
+    width: 60%;
+    margin-left: 23%;
+    margin-top: 16%;
+    display: flex;
+    background: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+    
+}
+#mytext{
+    position: absolute;
+}
+
+#logo > span{
+    margin-left: 25%;
+    margin-top: 11%;
+    position: absolute;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    position: absolute;
+    font-size: 100px;
+    color: tomato;
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#icon{
+    float: left;
+}
+
+/*Social Accounts*/
+
+#social{
+    float: right;
+}
+
+/*Search Start*/
+#search{
+    height:500px;
+    background-image: url("./wallpaper1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-size: 100% 400px;*/
+
+}
+/*Quick Search*/
+#Quicksearch{
+    height:600px;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 2%;
+
+}
+#quickheading{
+    color: tomato;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: block;
+}
+
+.tilecontainer{
+    height: 200px;
+    width: 30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 30px grey;
+}
+
+.tilecompo1{
+    width: 50%;
+    float: left;
+    height: 200px;
+}
+
+.tilecompo1 > img{
+    height: 200px;
+    width: 100%;
+}
+.tilecompo2{
+    width: 45%;
+    float: left;
+    height: 200px;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.componentheading{
+    font-size: 25px;
+    color: black;
+}
+
+.componentsubheading{
+    color: black;
+}
+
+.componentheading > a{
+    color: tomato;
+    font-weight: bold;
+}
+#quicksubheading{
+    line-height: 1;
+    color: black;
+    font-size: 20px;
+}
+/*footer*/
+footer{
+    height:120px;
+    background-color:white;
+
+}
+
+.foot1{
+    width: 24%;
+    height: 120px;
+    margin-left: 1%;
+    float: left;
+    position: relative;
+    color: black;
+}
